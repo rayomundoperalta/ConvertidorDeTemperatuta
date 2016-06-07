@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     text.setText(String.valueOf(ConverterUtil.convertCelsiusToFahrenheit(inputValue)));
                     fahrenheitButton.setChecked(false);
                     celsiusButton.setChecked(true);
+
                 }
         }
     }
